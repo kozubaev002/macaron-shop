@@ -1,0 +1,97 @@
+.footer2 {
+    background: rgb(235, 237, 238);
+    width: 1440px;
+    height: 318px;
+
+    .footer2-1 {
+        display: flex;
+        padding: 56px 100px;
+        gap: 100px;
+
+        .footer-item {
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 10px;
+
+            img {
+                width: 44.85px;
+                height: 39px;
+                object-fit: contain;
+            }
+
+            p {
+                color: rgb(41, 41, 41);
+                font-family: sans-serif;
+                font-size: 12px;
+                font-weight: 400;
+                line-height: 110%;
+                letter-spacing: 0%;
+                width: 140px;
+
+            }
+        }
+    }
+
+    .p {
+        color: rgb(41, 41, 41);
+        font-family: sans-serif;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 15px;
+        letter-spacing: 0%;
+    }
+
+
+
+
+    .footer2-3 {
+        h3 {
+            color: rgb(41, 41, 41);
+            font-family: sans-serif;
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 19px;
+            letter-spacing: 0%;
+            text-align: left;
+            text-transform: uppercase;
+        }
+
+        ul {
+            padding-top: 20px;
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+
+
+            li {
+                color: rgb(41, 41, 41);
+                font-family: sans-serif;
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 17px;
+                letter-spacing: 0%;
+                text-align: left;
+            }
+        }
+
+       
+
+
+    }
+
+    .i {
+        padding-top: 100px;
+        display: flex;
+        gap: 20px;
+
+
+        img{
+            width: 40px;
+            height: 40px;
+        }
+        
+    }
+}
