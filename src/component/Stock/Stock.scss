@@ -6,9 +6,12 @@
     margin-top: 50px;
 
 
+
     .cod {
         width: 270px;
         height: 380px;
+
+
 
         img {
             width: 270px;
@@ -54,7 +57,7 @@
             clip-path: polygon(0 0, 90% 0, 85% 50%, 90% 100%, 0 100%);
             display: flex;
             justify-content: flex-start;
-            
+
 
 
             h3 {
@@ -68,15 +71,18 @@
             }
         }
 
-        .blue-p{
+        .blue-p {
             background: rgb(140, 196, 236);
         }
 
-        .red-p{
+        .red-p {
             background: rgb(255, 77, 109);
         }
     }
+
+  
 }
+
 
 .ribbon {
     width: 100px;
@@ -91,13 +97,13 @@
     clip-path: polygon(0 0, 100% 0, 100% 70%, 0 100%);
     font-size: 12px;
 
-    p{
+    p {
         color: rgb(255, 255, 255);
-font-family: Proxima Nova;
-font-size: 16px;
-font-weight: 600;
-line-height: 19px;
-letter-spacing: 0%;
-text-align: center;
+        font-family: Proxima Nova;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 19px;
+        letter-spacing: 0%;
+        text-align: center;
     }
 }
