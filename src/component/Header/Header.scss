@@ -4,7 +4,7 @@
     align-items: center;
     flex-direction: column;
 
-  
+
 
 
     .header1 {
@@ -93,7 +93,7 @@
                     border: none;
                     outline: none;
                     cursor: pointer;
-               
+
                 }
             }
         }
@@ -128,20 +128,29 @@
                 width: 13px;
                 height: 13px;
                 transform: translateX(-95%);
-                background: red;
-                color: white;
-                border-radius: 50%;
-                font-size: 14px;
-                color: rgb(255, 255, 255);
-                font-family: Proxima Nova;
-                font-size: 10px;
-                font-weight: 400;
-                line-height: 12px;
-                letter-spacing: 0%;
-                text-align: center;
                 background: rgb(0, 0, 0);
-                padding: 1px 2px;
+                border-radius: 50%;
+
+                p {
+                    position: relative;
+                    color: white;
+                    top: 1px;
+                    font-size: 14px;
+                    color: rgb(255, 255, 255);
+                    font-family: sans-serif;
+                    font-size: 10px;
+                    font-weight: 400;
+                    line-height: 12px;
+                    letter-spacing: 0%;
+                    text-align: center;
+                }
             }
         }
+    }
+}
+
+@media (max-width:820px) {
+    .header{
+        display: none;
     }
 }

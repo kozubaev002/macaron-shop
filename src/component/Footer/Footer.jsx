@@ -9,11 +9,12 @@ import svg13 from "../../assets/svg/13.svg"
 
 function Footer() {
   return (
-    <div className='footer2'>
+    <div>
+      <div className='footer2'>
       <div className="footer2-1">
       
-      <div style={{display:"flex", flexDirection:"column", gap:"40px"}}>
-        <div style={{ display: "flex",gap:"0" }}>
+      <div className='footer22'  >
+        <div className='footeItem' >
           <div className="footer-item">
             <img src={svg8} alt="" />
             <p>Готовим вручную <br /> и с любовью</p>
@@ -30,7 +31,7 @@ function Footer() {
         </div>
 
         <div>
-          <p className='p'>© 2021 Макароншоп <br /> ООО "Квантум", Санкт-Петербург,  улица Маршала Тухачевского, <br /> дом 22 </p>
+          <p className='p'>© 2021 Макароншоп <br />ООО "Квантум", Санкт-Петербург,  улица Маршала Тухачевского, <br /> дом 22 </p>
         </div>
       </div>
 
@@ -85,7 +86,40 @@ function Footer() {
 
       </div>
     </div>
-           
-  )}
- 
-export default Footer 
+
+    <div className='class'>
+            <div className="class-name">
+                <div className="footer-item">
+                    <img src={svg8} alt="" />
+                    <p>Готовим вручную и с любовью</p>
+                </div>
+                <div className="footer-item">
+                    <img src={svg9} alt="" />
+                    <p>Доставим в день заказа</p>
+                </div>
+                <div className="footer-item">
+                    <img src={svg10} alt="" />
+                    <p>100% <br /> миндальная мука и натуральные ингредиенты</p>
+                </div>
+            </div>
+
+            <div className='content'>
+                <p>© 2021 Макароншоп <br /> ООО "Квантум", Санкт-Петербург,  улица Маршала Тухачевского, 22
+                </p>
+                <div>
+                    <h3>+7 (812) 309 82 88</h3>
+                    <p>с 9:00 до 21:00</p>
+                </div>
+            </div>
+
+            <div className='imgs'>
+                <img src={svg11} alt="" />
+                <img src={svg12} alt="" />
+                <img src={svg13} alt="" />
+            </div>
+        </div>
+    </div>
+  )
+}
+
+export default Footer;

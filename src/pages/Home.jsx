@@ -1,5 +1,6 @@
 import React from 'react'
 import "./Home.scss"
+import { Link } from 'react-router-dom'
 import img1 from "../assets/image/image1.png"
 import img2 from "../assets/image/image2.png"
 import img3 from "../assets/image/image3.png"
@@ -24,7 +25,8 @@ function Home() {
         <div className='home'>
             <div className='home-content'>
                 <ul>
-                    <li>КОНТАКТЫ</li>
+                    <Link to="contact" className="breadcrumb-link"><li>КОНТАКТЫ</li></Link>
+                    
                     <li>Собрать Набор</li>
                     <li>СЛАДКИЕ ДНИ</li>
                 </ul>

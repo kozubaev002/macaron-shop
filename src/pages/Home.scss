@@ -1,6 +1,11 @@
 .home {
     margin-top: 18px;
 
+    .breadcrumb-link {
+        text-decoration: none;
+        color: inherit;
+    }
+
 
     .home-content {
         display: flex;

@@ -9,7 +9,7 @@ function News() {
         news.map((item) => (
             <div className='content' key={item.id}>
                 <img src={item.img} alt="" />
-                <div className='content-text'>
+                <div className='content-text'> 
                     <h6>{item.number}</h6>
                     <h5>{item.title}</h5>
                     <h4>{item.p} </h4>

@@ -14,23 +14,23 @@ import img5 from "../../assets/svg/5.svg";
 import img6 from "../../assets/svg/6.svg";
 
 const sliderData = [
-    {
-      text: "МИНДАЛЬНАЯ МУКА И НАТУРАЛЬНЫЕ ИНГРЕДИЕНТЫ",
-      img:img3
-    },
-    {
-      text: "ДОСТАВКА В ДЕНЬ ЗАКАЗА",
-      img: img4
-    },
-    {
-      text: "ОПТОВЫЕ ПОСТАВКИ ОТ ПРОИЗВОДИТЕЛЯ",
-      img: img5
-    },
-    {
-      text: "ВСЕГДА СВЕЖЕЕ",
-      img: img6 
-    }
-  ];
+  {
+    text: "МИНДАЛЬНАЯ МУКА И НАТУРАЛЬНЫЕ ИНГРЕДИЕНТЫ",
+    img: img3
+  },
+  {
+    text: "ДОСТАВКА В ДЕНЬ ЗАКАЗА",
+    img: img4
+  },
+  {
+    text: "ОПТОВЫЕ ПОСТАВКИ ОТ ПРОИЗВОДИТЕЛЯ",
+    img: img5
+  },
+  {
+    text: "ВСЕГДА СВЕЖЕЕ",
+    img: img6
+  }
+];
 
 function Header() {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -38,7 +38,7 @@ function Header() {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentIndex((prev) => (prev + 1) % sliderData.length);
-    }, 3000); 
+    }, 3000);
     return () => clearInterval(interval);
   }, []);
 
@@ -48,7 +48,7 @@ function Header() {
         <img src={img1} alt="" />
         <div style={{ display: "flex", gap: "40px", alignItems: "center" }}>
           <div>
-            <img style={{ width: "31.66px", height: "30.37px" }} src={sliderData[currentIndex].img}  alt="" />
+            <img style={{ width: "31.66px", height: "30.37px" }} src={sliderData[currentIndex].img} alt="" />
             <button>100%</button>
           </div>
           <h3 className='slider-text'>{sliderData[currentIndex].text}</h3>
@@ -73,7 +73,8 @@ function Header() {
 
           <div className='div2'>
             <img src={bag} alt="" />
-            <span>4</span>
+            <span>
+              <p>4</p> </span>
             <p>В корзине (4 товара)</p>
           </div>
 
