@@ -14,13 +14,13 @@
         img {
             width: 370px;
             height: 210px;
+            object-fit: cover;
         }
 
 
         .content-text {
             position: relative;
             bottom: 10px;
-            width: 370px;
             height: 210px;
             box-sizing: border-box;
             /* #EDEDF0 */
